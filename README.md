@@ -1,5 +1,5 @@
 extending kdmapper (detected trash)
-this project abuses TRCore64.sys which is installed manually or MSI afterburner, which has the osposed device object of \\.\RTCore64
+this project abuses TRCore64.sys which is installed manually or MSI afterburner, which has the exposed device object of \\.\RTCore64
 the driver esposes its ioctl coms which then allows arbitrary r/w of kernel memory, which i am abusing to map kernel objects without validation
 
 overview:
